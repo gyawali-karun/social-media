@@ -35,22 +35,5 @@ This is a NestJS backend API for a social media follow system, including user re
 
 The API will be available at `http://localhost:3000`.
 
-## Running Tests
-
-- Run unit tests: `npm test`.
-
-## Example API Requests (Using Postman or curl)
-
-Import these into Postman or use curl.
-
-### 1. Register User
-
-**POST** `/auth/register`
-
-```json
-{
-  "name": "John Doe",
-  "email": "john@example.com",
-  "password": "password123"
-}
-```
+## Documentation using Swagger : 
+ http://localhost:3000/api/docs
